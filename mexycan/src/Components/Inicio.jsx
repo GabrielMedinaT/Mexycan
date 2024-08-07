@@ -2,7 +2,7 @@ const Inicio = () => {
   return (
     <div className="Inicio">
       <h1>
-        Un viaje culinario a través de México, España y las Islas Canarias
+        Un viaje culinario a través de México, España y las Islas Canarias.
       </h1>
       <p>
         Descubre la deliciosa fusión de sabores entre estas tres culturas
