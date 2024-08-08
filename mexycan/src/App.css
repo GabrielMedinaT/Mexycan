@@ -9,11 +9,7 @@
   list-style: none;
 }
 /* Estilos base para móviles (por defecto) */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+
 .Inicio h1 {
   font-size: 2rem;
   text-align: center;
@@ -132,12 +128,7 @@ nav ul li a {
 /* Media query para escritorios */
 @media (min-width: 1024px) {
   .container {
-    max-width: 970px;
-    margin: 0 auto;
-  }
-
-  .container {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     margin-top: 20vh;
     padding: 0;
@@ -157,5 +148,22 @@ nav ul li a {
 
   nav ul li {
     margin: 0 15px;
+  }
+
+  .Inicio h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+  }
+  .Inicio p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+  }
+  .Inicio {
+    text-align: center;
+    width: 100vw;
   }
 }
