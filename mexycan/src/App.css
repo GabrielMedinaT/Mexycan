@@ -14,6 +14,18 @@ body {
   margin: 0;
   padding: 0;
 }
+.Inicio h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px;
+  padding: 0;
+}
+.Inicio p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 20px;
+  padding: 0;
+}
 
 .container {
   width: 100%;
@@ -52,6 +64,18 @@ li:hover {
 }
 .nav h1 {
   display: none;
+}
+.Inicio {
+  text-align: center;
+}
+.imagenInicio {
+  background-image: url("./Resources/Images/logo2.webp");
+  size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 390px;
+  z-index: 10;
 }
 .Logo {
   width: 60px;

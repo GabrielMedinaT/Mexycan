@@ -4,6 +4,7 @@ const Inicio = () => {
       <h1>
         Un viaje culinario a través de México, España y las Islas Canarias.
       </h1>
+      <div className="imagenInicio"></div>
       <p>
         Descubre la deliciosa fusión de sabores entre estas tres culturas
         gastronómicas. Desde los chiles mexicanos hasta las papas arrugadas
