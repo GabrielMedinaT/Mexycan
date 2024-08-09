@@ -145,6 +145,14 @@ nav ul li a {
     background-repeat: no-repeat;
   }
 
+  .imagenInicio {
+    background-image: url("./Resources/Images/logo2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 490px;
+  }
+
   nav ul li {
     margin: 0 15px;
   }
