@@ -135,6 +135,7 @@ nav ul li a {
 
   .nav {
     padding: 20px 0;
+    z-index: 10;
   }
   .Logo {
     width: 90px;

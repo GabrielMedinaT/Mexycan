@@ -12,9 +12,11 @@
 /* Estilos generales para el componente Contacto */
 .contacto-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  z-index: -10;
 }
 
 .contacto-heading {
@@ -48,4 +50,50 @@
 
 .contacto-link:hover {
   color: #ff3b3b;
+}
+
+.imagenes {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-top: 2rem;
+  background-color: #ff3b3b;
+  flex-wrap: wrap; /* Esto permitirá que los elementos se envuelvan si no caben en una fila */
+}
+
+.croqueta {
+  background-image: url("../Resources/Images/Croquetas.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 45vw;
+  height: 25vh;
+  margin: 2vw;
+  transition: all 0.3s;
+}
+.tortilla {
+  background-color: yellow;
+  width: 45vw;
+  height: 25vh;
+  margin: 2vw;
+}
+.torta {
+  background-color: green;
+  width: 45vw;
+  height: 25vh;
+  margin: 2vw;
+}
+
+.tumaca {
+  background-color: blue;
+  width: 45vw;
+  height: 25vh;
+  margin: 2vw;
+}
+
+.croqueta:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
